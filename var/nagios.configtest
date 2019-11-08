@@ -1,0 +1,8 @@
+ERROR: Errors in config files - see log for details: /usr/local/nagios/var/nagios.configtest
+Warning: Duplicate definition found for service 'MongoDB Database index size your-database' on host 'ip-172-31-92-233' (config file '/usr/local/nagios/etc/objects/localhost.cfg', starting on line 276)
+Warning: Duplicate definition found for service 'Mongo Connect Check' on host 'ip-172-31-92-233' (config file '/usr/local/nagios/etc/objects/localhost.cfg', starting on line 191)
+Warning: Duplicate definition found for service 'MongoDB Database index size your-database' on host 'ip-172-31-88-187' (config file '/usr/local/nagios/etc/objects/localhost.cfg', starting on line 282)
+Warning: Duplicate definition found for service 'MongoDB Database index size your-database' on host 'ip-172-31-31-71' (config file '/usr/local/nagios/etc/objects/localhost.cfg', starting on line 282)
+Warning: Duplicate definition found for service 'Mongo Connect Check' on host 'ip-172-31-88-187' (config file '/usr/local/nagios/etc/objects/localhost.cfg', starting on line 301)
+Warning: Duplicate definition found for service 'Mongo Connect Check' on host 'ip-172-31-31-71' (config file '/usr/local/nagios/etc/objects/localhost.cfg', starting on line 301)
+Error: Service check command 'check_loadaverage' specified in service 'Load Average on CPU' for host 'localhost' not defined anywhere!
